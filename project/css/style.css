@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+:root{
+    --main-bg-color:rgb(65, 179, 255);/* globl define.*/
+}
+*{
+    margin: 0;padding: 0;
+}
+
+footer{
+    background-color: var(    --main-bg-color);
+    height: 18vh;
+    color: rgb(8, 6, 0);
+    font-family: 'KoHo', sans-serif;
+    
+  
+}
+header{
+  
+    background-color:     var(--main-bg-color);
+    font-family: 'KoHo', sans-serif; 
+
+}
+
+nav{
+    display: flex;
+  
+}
+.logo img{
+    width: 80px;
+    padding: 0px  25px;
+}
+.logo{
+    
+    display: flex;
+    align-items: center;
+    
+}
+nav ul {
+    display: flex;
+    flex-direction: flex-start;
+    align-items: center;
+    height: 65px;
+  
+}
+nav ul li{
+list-style: none;
+padding: 0 10px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(24, 16, 3);
+}
+
+.con{
+    min-height: calc(100vh - 18vh - 65px);
+}
+
+nav ul li a:hover{
+/* color: rgb(35, 99, 236); */
+font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+    
+}
+
+.search input {
+    width: 30vw;
+    height: 20px;
+    margin: 0px 16px 0px 25px;
+    /* border-radius: 4px; */
+    padding: 2px 13px;
+
+}
+.slider{
+    margin: 10px auto;
+    width: 80vw;
+    overflow: hidden;
+    
+}
+
+.card{
+    margin:  12px auto;
+    /* height: 2px; */
+    width: 90vw;
+    overflow: hidden;
+    
+    
+}
+.lines{
+   */
+    font-family: 'KoHo', sans-serif;
+    color: #388e3c;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 10px;
+   
+}
+
